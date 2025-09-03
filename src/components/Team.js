@@ -4,10 +4,10 @@ import linkdin from '../assets/linkdin.png';
 const Team = () => {
     return (
         <team>
-            <div className="mb-[100px] flex justify-center gap-5 mt-[96px]">
+            <div className="mb-[100px] grid grid-flow-col grid-rows-2 lg:flex justify-center gap-5 mt-[96px] m-3">
            <div>
              <img data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out"
-               className='lg:h-70 lg:w-60 h-40' src='https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fHww' alt=''/>
+               className='lg:h-70 lg:w-60 h-40 w-30' src='https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGh1bWFufGVufDB8fDB8fHww' alt=''/>
               <p data-aos="fade" data-aos-duration="3000" data-aos-easing="ease-in-out"
                  className='text-[22px] mb-2  '>
                   Ruth Woods
@@ -36,7 +36,7 @@ const Team = () => {
             
             <div>
              <img  data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out"
-               className='lg:h-70 lg:w-60 h-40' src='https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aHVtYW58ZW58MHx8MHx8fDA%3D' alt=''/>
+               className='lg:h-70 lg:w-60 h-40 w-30' src='https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aHVtYW58ZW58MHx8MHx8fDA%3D' alt=''/>
               <p data-aos="fade" data-aos-duration="3000" data-aos-easing="ease-in-out" 
                 className='text-[22px] mb-2 '>
                   Timothy Reed
@@ -66,7 +66,7 @@ const Team = () => {
 
            <div>
              <img  data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out"
-                className='lg:h-70 lg:w-60 h-40' src='https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHVtYW58ZW58MHx8MHx8fDA%3D' alt=''/>
+                className='lg:h-70 lg:w-60 h-40 w-30' src='https://images.unsplash.com/photo-1601412436009-d964bd02edbc?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHVtYW58ZW58MHx8MHx8fDA%3D' alt=''/>
               <p data-aos="fade" data-aos-duration="3000" data-aos-easing="ease-in-out"
                  className='text-[22px] mb-2 '>
                   Victoria Valdez
@@ -95,7 +95,8 @@ const Team = () => {
            </div>
 
            <div>
-             <img data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out" className='lg:h-70 lg:w-60 h-40' src='https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGh1bWFufGVufDB8fDB8fHww' alt=''/>
+             <img data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out" 
+               className='lg:h-70 lg:w-60 h-40 w-30' src='https://images.unsplash.com/photo-1589571894960-20bbe2828d0a?w=200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGh1bWFufGVufDB8fDB8fHww' alt=''/>
               <p data-aos="fade" data-aos-duration="3000" data-aos-easing="ease-in-out" 
                  className='text-[22px] mb-2  '>Beverly Little
               </p>

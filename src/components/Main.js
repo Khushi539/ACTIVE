@@ -13,7 +13,7 @@
                   <br/> our future to the data analysts who guide our decisions, our team is the driving force of our brand.
                 </p>
                <button  data-aos-easing="ease out" data-aos="zoom-in" data-aos-duration="600ms"
-                    className='bg-[#e74545] text-white text-[13px] px-[47px] py-2 m-2'>Find Out More</button>
+                    className='bg-[#e74545] hover:bg-red-400 text-white text-[13px] px-[47px] py-2 m-2'>Find Out More</button>
              </div>
         </main>
     )

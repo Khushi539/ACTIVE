@@ -9,7 +9,7 @@ import Layerf from '../assets/Layerf.png';
 const Featurs = () => {
     return (
         <featurs>
-         <div className='grid grid-flow-col grid-rows-2 center justify-center gap-10 mb-[120px] mt-[120px] bg[#ffffff'>
+         <div className='grid grid-flow-col grid-rows-3 lg:grid-rows-2 center justify-center m-3 gap-10 mb-[120px] mt-[120px] bg[#ffffff'>
             <div className=''>
               <img data-aos="zoom-in" data-aos-duration="3000" data-aos-easing="ease-in-out"
                 className='mx-auto mb-[30px]' src={Layer} alt="Layer icon"/>
@@ -18,11 +18,11 @@ const Featurs = () => {
                     Easily Customised
                     </p>
               <p data-aos="fade-up" data-aos-duration="3000" data-aos-easing="ease-in-out"
-                className='text-[14px] text-center'>We believe that one size doesn't <br/> 
+                className='text-[14px] text-center'>
+                  We believe that one size doesn't <br/> 
                   fit all. Our platform is easily <br/> 
-                  customized, giving you the<br/>
-                  flexibility to adapt it to your<br/>
-                  unique requirements.
+                  customized, giving you them flexibility<br/> 
+                  to adapt it to your unique requirements.
               </p>
             </div>
             <div className=''>

@@ -24,7 +24,7 @@ function App() {
 
 
   return (
-    <div className='parent'>
+    <div className='parent overflow-x-hidden'>
   
       <div
       className="h-screen bg-cover bg-center"
